@@ -1,0 +1,194 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Skills Aquisition Lab
+    </ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="skills">
+	    <ion-segment-button value="Art_&_Craft">
+	      Art & Craft
+	    </ion-segment-button>
+	    <ion-segment-button value="Soft_Skills">
+	      Soft SKILLS
+	    </ion-segment-button>
+	    <ion-segment-button value="Technical_Skills">
+	      Tech SKILLS
+	    </ion-segment-button>
+	  </ion-segment>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+
+  <div [ngSwitch]="skills">
+  <ion-list *ngSwitchCase="'Art_&_Craft'">
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/sewing.jpg">
+      </ion-thumbnail>
+      <h2>Sewing</h2>
+      <button ion-button clear (click)="video('Sewing')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/beads.jpg">
+      </ion-thumbnail>
+      <h2>Beads Making</h2>
+      <button ion-button clear (click)="video('Beads Making')" item-end>View</button>
+    </ion-item>
+    
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/cakes.jpg">
+      </ion-thumbnail>
+      <h2>Cake Decorating</h2>
+      <button ion-button clear (click)="video('Cake Decorating')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/Basketweaving.jpg">
+      </ion-thumbnail>
+      <h2>Basket Making</h2>
+      <button ion-button clear (click)="video('Basket Making')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/shoe making.jpg">
+      </ion-thumbnail>
+      <h2>Shoe Making</h2>
+      <button ion-button clear (click)="video('Shoe Making')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/drawing.jpg">
+      </ion-thumbnail>
+      <h2>Drawing</h2>
+      <button ion-button clear (click)="video('Drawing')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/piano.jpg">
+      </ion-thumbnail>
+      <h2>Piano</h2>
+      <button ion-button clear (click)="video('Piano')" item-end>View</button>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'Soft_Skills'">
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="assets/img/Communication.jpg">
+      </ion-thumbnail>
+      <h2>Communication</h2>
+      <button ion-button clear (click)="video('Communication')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/customer service.png">
+      </ion-thumbnail>
+      <h2>Customer Service</h2>
+      <button ion-button clear (click)="video('Customer Service')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/emotional-intelligence.jpg">
+      </ion-thumbnail>
+      <h2>Emotional Intelligence</h2>
+      <button ion-button clear (click)="video('Emotional Intelligence')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/Interpersonal-Skills.jpg">
+      </ion-thumbnail>
+      <h2>Interpersonal Skills</h2>
+      <button ion-button clear (click)="video('Interpersonal skills')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/leadership.jpg">
+      </ion-thumbnail>
+      <h2>Leadership</h2>
+      <button ion-button clear (click)="video('Leadership')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/team-work.jpg">
+      </ion-thumbnail>
+      <h2>Teamwork</h2>
+      <button ion-button clear (click)="video('Teamwork')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/time.jpg">
+      </ion-thumbnail>
+      <h2>Time Management</h2>
+      <button ion-button clear (click)="video('Time Management')" item-end>View</button>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'Technical_Skills'">
+    <ion-item>
+      <ion-thumbnail  item-start>
+        <img src="assets/img/coding.jpg">
+      </ion-thumbnail>
+      <h2>Coding</h2>
+      <button ion-button clear (click)="video('Coding')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/electronics.jpg">
+      </ion-thumbnail>
+      <h2>Electronics</h2>
+      <button ion-button clear (click)="video('Electronics')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/fabrication.jpg">
+      </ion-thumbnail>
+      <h2>Fabrication</h2>
+      <button ion-button clear (click)="video('Fabrication')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/mechanical.jpg">
+      </ion-thumbnail>
+      <h2>Mechanical</h2>
+      <button ion-button clear (click)="video('Mechanical')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/driving.jpg">
+      </ion-thumbnail>
+      <h2>Driving</h2>
+      <button ion-button clear (click)="video('Driving')" item-end>View</button>
+    </ion-item>
+
+    <ion-item>
+	    <ion-thumbnail item-start>
+        <img src="assets/img/networking.jpg">
+      </ion-thumbnail>
+      <h2>Networking</h2>
+      <button ion-button clear (click)="video('Networking')" item-end>View</button>
+    </ion-item>
+
+  </ion-list>
+</div>
+</ion-content>
