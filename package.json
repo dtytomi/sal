@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "ionic-hello-world",
     "version": "0.0.0",
+=======
+    "name": "SAL",
+    "version": "0.0.1",
+>>>>>>> 42adac054fc052a6de02367cd223ec124309eeff
     "author": "Ionic Framework",
     "homepage": "http://ionicframework.com/",
     "private": true,
@@ -12,6 +17,7 @@
         "ionic:serve": "ionic-app-scripts serve"
     },
     "dependencies": {
+<<<<<<< HEAD
         "@angular/common": "4.1.2",
         "@angular/compiler": "4.1.2",
         "@angular/compiler-cli": "4.1.2",
@@ -53,6 +59,45 @@
     "description": "sal: An Ionic project",
     "cordova": {
         "plugins": {
+=======
+        "@angular/common": "4.1.3",
+        "@angular/compiler": "4.1.3",
+        "@angular/compiler-cli": "4.1.3",
+        "@angular/core": "4.1.3",
+        "@angular/forms": "4.1.3",
+        "@angular/http": "4.1.3",
+        "@angular/platform-browser": "4.1.3",
+        "@angular/platform-browser-dynamic": "4.1.3",
+        "@ionic-native/core": "3.12.1",
+        "@ionic-native/splash-screen": "3.12.1",
+        "@ionic-native/status-bar": "3.12.1",
+        "@ionic-native/streaming-media": "^4.3.1",
+        "@ionic/storage": "2.0.1",
+        "com.hutchind.cordova.plugins.streamingmedia": "~0.1.4",
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-console": "^1.0.5",
+        "cordova-plugin-device": "^1.1.4",
+        "cordova-plugin-splashscreen": "^4.0.3",
+        "cordova-plugin-statusbar": "^2.2.2",
+        "cordova-plugin-streaming-media": "^1.0.2",
+        "cordova-plugin-whitelist": "^1.3.1",
+        "ionic-angular": "3.5.3",
+        "ionic-plugin-keyboard": "^2.2.1",
+        "ionicons": "3.0.0",
+        "rxjs": "5.4.0",
+        "sw-toolbox": "3.6.0",
+        "zone.js": "0.8.12"
+    },
+    "devDependencies": {
+        "@ionic/app-scripts": "2.0.2",
+        "ionic": "3.12.0",
+        "typescript": "2.3.4"
+    },
+    "description": "An Ionic project",
+    "cordova": {
+        "plugins": {
+            "com.hutchind.cordova.plugins.streamingmedia": {},
+>>>>>>> 42adac054fc052a6de02367cd223ec124309eeff
             "cordova-plugin-console": {},
             "cordova-plugin-device": {},
             "cordova-plugin-splashscreen": {},

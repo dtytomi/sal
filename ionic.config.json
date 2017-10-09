@@ -1,6 +1,15 @@
 {
+<<<<<<< HEAD
   "name": "sal",
   "app_id": "",
   "v2": true,
   "typescript": true
+=======
+  "name": "SAL",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+>>>>>>> 42adac054fc052a6de02367cd223ec124309eeff
 }
