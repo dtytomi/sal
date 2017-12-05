@@ -4,10 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-<<<<<<< HEAD
-=======
 
->>>>>>> 42adac054fc052a6de02367cd223ec124309eeff
 @Component({
   templateUrl: 'app.html'
 })

@@ -14,7 +14,7 @@ import { VideosProvider } from '../../providers/videos/videos';
 
 @Component({
   selector: 'page-videos',
-  templateUrl: 'videos.html',
+  templateUrl: 'videos.html'
 })
 export class VideosPage  implements OnInit {
 
