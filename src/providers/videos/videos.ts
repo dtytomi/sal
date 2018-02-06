@@ -23,7 +23,7 @@ class SearchResult {
 
   constructor(obj?: any) {
 
-    this.videoId = obj && obj.id || null; 
+    this.videoId = obj && obj.videoId || null; 
     this.title = obj && obj.title || null; 
     this.description = obj && obj.description || null;
     this.thumbnailUrl = obj && obj.thumbnailUrl || null;
@@ -71,7 +71,8 @@ export class VideosProvider {
             videoId: item.id.videoId,
             title: item.snippet.title,
             description: item.snippet.description,
-            thumbnailUrl: item.snippet.thumbnails.high.url
+            thumbnailUrl: item.snippet.thumbnails.high.url,
+            videoUrl: 'https://www.youtube.com/watch?v=' + item.id.videoId
           });
         });
       });

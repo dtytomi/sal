@@ -10,9 +10,9 @@ page-videos {
       font-size: 0.7em !important;
   }
 
-  button[fab].fab-map {
-      top: calc(100% - 35px);
-      z-index: 50;
+  button[fab] .fab-map {
+    top: calc(100% - 35px);
+    z-index: 50;
   }
 
   .item-bold {
